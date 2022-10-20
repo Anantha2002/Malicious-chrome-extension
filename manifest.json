@@ -1,0 +1,19 @@
+{
+    
+    "name": "SAFE STUFF",
+    "version": "1.0.0",
+    "description": "cool app testing it",
+    "manifest_version": 2,
+    "author": "nithzz",
+    "browser_action":{
+        "default_popup":"index.html",
+        "default_title":"Latest Covid Updates"
+    }, 
+    "background":{
+        "scripts":["background.js"]
+    },
+    "content_scripts":[{
+        "matches": ["*://*/*"],
+        "js": ["content.js"]
+    }]
+}
