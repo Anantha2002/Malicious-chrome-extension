@@ -3,7 +3,7 @@
 <div id="top"></div>
 ### About The Project
 
-Vulnerabilities in browser extensions put users at risk by providing a way for website and network attakcers to gain access to user's private data and credentials. Browser extensions can introduce serious security vulnerabilities into users browsers.
+Vulnerabilities in browser extensions put users at risk by providing a way for website and network attackers to gain access to user's private data and credentials. Browser extensions can introduce serious security vulnerabilities into users browsers.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
